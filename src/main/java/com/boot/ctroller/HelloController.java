@@ -16,4 +16,10 @@ public class HelloController {
         return "Hello SpringBoot";
 
     }
+
+    @RequestMapping("info2")
+    public String info2(){
+        return "Hello SpringBoot info2";
+
+    }
 }
