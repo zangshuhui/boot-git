@@ -28,4 +28,9 @@ public class HelloController {
         return "Hello SpringBoot info3";
 
     }
+    @RequestMapping("info4")
+    public String info4(){
+        return "Hello SpringBoot info4";
+
+    }
 }
